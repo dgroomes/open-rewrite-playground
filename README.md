@@ -1,8 +1,6 @@
 # open-rewrite-playground
 
-NOT YET IMPLEMENTED (I wrote the README first)
-
-📚 Learn and exploring OpenRewrite.
+📚 Learning and exploring OpenRewrite.
 
 > Large-scale automated source code refactoring
 > 
@@ -54,10 +52,8 @@ Follow these instructions to build and run the OpenRewrite-powered static analys
    * ```shell
      ./static-analysis/build/install/static-analysis/bin/static-analysis
      ```
-   * It should print something like the following.
-   * ```text
-     NOT YET IMPLEMENTED
-     ```
+   * It should print a rather verbose description of the "recipe run" and a proposed change to remove an unused import
+     in the program-under-analysis. The change is shown as a text diff, like you would see in a Git commit. Neat!
 
 
 ## Reference

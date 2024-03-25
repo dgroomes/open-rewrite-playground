@@ -1,7 +1,11 @@
 [versions]
 slf4j = "2.0.12" # SLF4J releases: http://www.slf4j.org/news.html
+open-rewrite = "8.21.0" # OpenRewrite releases: https://github.com/openrewrite/rewrite/releases
 
 
 [libraries]
 slf4j-api = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 slf4j-simple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
+open-rewrite-core = { module = "org.openrewrite:rewrite-core", version.ref = "open-rewrite" }
+open-rewrite-java = { module = "org.openrewrite:rewrite-java", version.ref = "open-rewrite" }
+open-rewrite-java21 = { module = "org.openrewrite:rewrite-java-21", version.ref = "open-rewrite" }

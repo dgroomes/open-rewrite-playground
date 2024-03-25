@@ -1,6 +1,9 @@
 package dgroomes.simple_arithmetic;
 
 import static java.lang.System.out;
+// This is an unused import. Normally, our IDE would highlight this and we would remove it. But for the sake of this
+// project, we'll let the OpenRewrite recipe find it and propose a change to remove it.
+import java.lang.Double;
 
 /**
  * Please see the README for more information.
